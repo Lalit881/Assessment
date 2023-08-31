@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    background-color: aqua;
+    padding-bottom: 25px;
+}
+nav{
+    padding-top: 15px;
+}
+hr{
+    background-color: rgb(7, 202, 202);
+    height: 1px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.add{
+    background-color: white;
+}
+.address{
+    padding-left: 10px;
+    padding-block: 15px;
+}
+.add1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 90px;
+}
+a{
+    text-decoration: none;
+}
+.color{
+    display: flex;
+    flex-direction: column;
+}
+.red > a {
+    color:  #ff0000;;
+}
+.blue > a{
+    color: #00aaff;
+}
+.fa-location-dot{
+    font-size: 28px;
+}
+.add{
+    padding-bottom: 15px;
+}
+section{
+    margin-top: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.first > input{
+    padding-right: 90px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-block: 15px;
+    padding-left: 8px;
+    border-radius: 5px;
+    border-color: #eae7e7;
+}
+input::placeholder{
+    font-size: 18px;
+}
+.second{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.second > input{
+    padding-right: 68%;
+    padding-left: 8px;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    border-radius: 5px;
+    border-color: #eae7e7;
+}
+button{
+    font-size: 20px;
+    margin-left: 15px;
+    background-color: #d60a0a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.logo>div>i{
+    font-size: 40px;
+}
+.log{
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
